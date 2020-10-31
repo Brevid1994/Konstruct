@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+
+    /* header */
+
+    .header {
+        align-items: center;
+    }
+
+    .container-header {
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .container {
+        width: 66.6%;
+    }
+
+    /* navigation */
+
+    .navigation {
+        display: none;
+    }
+
+    /* gamburger */
+
+    .gamburger {
+        display: flex;
+        position: fixed;
+        top: 10%;
+        right: 5%;
+    }
+
+    /* main */
+
+    .container-header {
+        width: 100%;
+    }
+
+    .container-main {
+        width: 95%;
+    }
+
+    .main-description {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .products-container {
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .product {
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+    
+    /* services */
+
+    .line-services {
+        width: 100%;
+    }
+
+    .information-services {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .description-services {
+        width: 100%;
+        margin-bottom: 20%;
+        margin-top: 20%;
+    }
+
+    .offer {
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .offer-container {
+        margin-top: 5%;
+    }
+
+    /* feedback */
+
+    .header-feedback {
+        margin-top: 0px;
+    }
+
+    .button-feedback {
+        margin-bottom: 65%;
+    }
+
+    /* contact */
+
+    .header-contact {
+        margin-top: 5%;
+    }
+
+    .container-contact {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .form-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-contact {
+        margin-top: 3%;
+    }
+
+    /* footer */
+
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .brend-footer {
+        align-items: center;
+    }
+
+    .links-footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-left {
+        order: 1;
+    }
+
+    .footer-center {
+        order: 2;
+    }
+
+    .contact-footer {
+        margin-top: 30px;
+    }
+
+    .icons-footer {
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
